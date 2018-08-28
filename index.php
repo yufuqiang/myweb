@@ -1,5 +1,4 @@
 <?php
-echo 2;exit;
-phpinfo();
+echo 3;
 
 ?>
