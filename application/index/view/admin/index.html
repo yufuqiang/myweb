@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body style="text-align:center">
 
-<form action="{:url('/Index/Admin/save')}">
-<div>IP:<input type="text" name="ip" value=""></div>
-<div>端口：<input type="text" name="port" value=""></div>
-<div>用户名:<input type="text" name="name" value="vpn"></div>
-<div>密码：<input type="text" name="password" value="vpn"></div>
-<div><input type="submit" value="Submit"></div>
+<form action="{:url('/Index/Admin')}">
+<textarea name="content" cols="200" rows="40">
+{$content}
+</textarea>
+<div><input type="submit" value="保存" style="padding:5px;width:6rem;"></div>
 </form> 
 
 
