@@ -5,7 +5,6 @@ class Index
 {
     public function index()
     {
-       echo 1;
-	   return view('index');
+       return file_get_content("ip.txt");
 	}
 }
